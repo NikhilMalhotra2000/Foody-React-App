@@ -1,0 +1,68 @@
+ul{
+    list-style-type: none;
+    display: -webkit-inline-flex;
+}
+
+.item{
+    border:1px solid gray;
+    padding: 20px;
+    margin: 20px;
+    font-weight: bold;
+    background-color: rgb(241, 236, 236);
+    
+}
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.itemImage{
+    width: 150px;
+    min-height: 150px;
+    max-height: auto;
+    float: left;
+    margin: 1px;
+    padding: 2px;
+    
+}
+.FontAwesomeIcon{
+    height: 25px;
+    width: 25px;
+}
+button{
+    padding: 4px;
+    margin-left: 15vh;
+    background-color: white;
+    border: white;
+}
+
+.List-Item{
+    margin-left: 10px;
+}
+.price{
+    margin-left: 10px;
+}
+
+.OrderButtons{
+    margin-left: 15px;
+}
+
+
+.button-class{
+    margin-left:47%;
+    margin-top:20%;
+    border : 4px solid #ba181b;
+    padding:15px 32px;
+    background-color: #212529;
+    display: inline-block;
+    color:white;
+    font-size:16px;
+    transition:0.5s;
+}
+.button-class:hover{
+    box-shadow: 0 8px 12px 0 #a4161a,0 10px 25px 0 #a4161a;
+    transform: translateY(-10%);
+    transition:0.5s;
+    color:#a4161a;
+    
+}
